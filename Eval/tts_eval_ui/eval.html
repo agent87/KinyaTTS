@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html dir="ltr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>Kinyarwanda text-to-speech (TTS) evaluation</title>
+    <link rel="shortcut icon" href="https://tts.kinlp.com/img/kinlp.ico" type="image/ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="eval_files/all.min.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="eval_files/css2.css">
+    <!-- MDB -->
+    <link rel="stylesheet" type="text/css" href="eval_files/mdb.min.css">
+<style>INPUT:-webkit-autofill,SELECT:-webkit-autofill,TEXTAREA:-webkit-autofill{animation-name:onautofillstart}INPUT:not(:-webkit-autofill),SELECT:not(:-webkit-autofill),TEXTAREA:not(:-webkit-autofill){animation-name:onautofillcancel}@keyframes onautofillstart{}@keyframes onautofillcancel{}</style></head>
+<body>
+
+<!-- Start your project here-->
+<div style="padding: 24px">
+    <form action="/annotator/input" method="post">
+        <p>0/10</p>
+        <p>Kwizihiza uyu munsi byabanjirijwe n' icyumweru cyahariwe abageze mu zabukuru kirangwa n' ibikorwa bitandukanye.</p>
+        <audio controls="controls" src="eval_files/6f564633d233f2fb143743776439011006b066c0dcd60781ef7f6ab24b8b.wav"></audio>
+        <p>&nbsp;</p>
+        <p>Your score:</p>
+        <input type="radio" id="score1" name="score" value="1">
+        <label for="score1"> <b>1</b> &nbsp; &nbsp;</label>
+        <input type="radio" id="score2" name="score" value="2">
+        <label for="score2"> <b>2</b> &nbsp; &nbsp;</label>
+        <input type="radio" id="score3" name="score" value="3">
+        <label for="score3"> <b>3</b> &nbsp; &nbsp;</label>
+        <input type="radio" id="score4" name="score" value="4">
+        <label for="score4"> <b>4</b> &nbsp; &nbsp;</label>
+        <input type="radio" id="score5" name="score" value="5">
+        <label for="score5"> <b>5</b> &nbsp; &nbsp;</label>
+        <p>&nbsp;</p>
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+            <div class="col">
+                <button type="submit" class="btn btn-primary btn-block mb-4" formaction="/annotator/input?id=1601&amp;action=next">Next</button>
+            </div>
+        </div>
+
+    </form>
+</div>
+<!-- End your project here-->
+
+<!-- MDB -->
+<script src="eval_files/mdb.min.js"></script>
+<!-- Custom scripts -->
+<script type="text/javascript"></script>
+
+</body></html>
